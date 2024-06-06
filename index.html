@@ -53,12 +53,13 @@
 	<div class="sticky">
 		<div class="container">
 			<small>
-				<div class="title"><b>FRCOG Housing Study</b> |</div> <a href="#Overview">Overview</a> | <a href="#People">Indicators</a> | <a href="#Place">Solutions</a> | <a href="#Demand">Next steps</a>
+				<div class="title"><b>FRCOG Housing Study</b> |</div> <a href="#Overview">Overview</a> | <a href="#Indicators">Indicators</a> | <a href="#Solutions">Solutions</a> | <a href="#Next steps">Next steps</a>
 			</small>
 		</div>
 	</div>
 
-	<!-- Cover image -->
+	<!-- Cover banner -->
+
 
 	<div class="cover">
 		<div class="container" style="margin-top: 0">
@@ -77,60 +78,335 @@
 
 			</div>
 		</div>
+		<!-- Hide the TOC
 		<div class="row">
 			<div class="one-fifth column"><a href="#Overview"><img src="images/Overview.png" class="icon" title="Overview"><br><b>Overview</b></a>, introducing the purpose of this dashboard.</div>
 			<div class="one-fifth column"><a href="#People"><img src="images/People.png" class="icon" title="People"><br><b>Indicators</b></a>, profiling characteristics such as income, employment, household structure, and cost burden.</div>
 			<div class="one-fifth column"><a href="#Place"><img src="images/Place.png" class="icon" title="Place"><br><b>Solutions</b></a>, to generate new construction that fits with the community's needs.</div>
 			<div class="one-fifth column"><a href="#Demand"><img src="images/Demand.png" class="icon" title="Demand"><br><b>Next steps</b></a>, and how you can get involved.</div>
 		</div>
+		 -->
 	</div>
+
+	<!-- Divider row -->
 	<div class="divider">
 		<div class="container">
-			<div class="two columns">
-				<img src="images/Overview.png" class="icon" title="Overview">
+			<div class="Twelve columns">
+				<h2 id="Overview">Overview</h2>
 			</div>
-			<div class="ten columns">
-				<h3 id="Overview">Overview</h3>
-				<p><b>Demographic profile</b>. Understanding the demographic composition of a community and changes over time sheds light on likely housing needs today and into the future. Key demographic indicators include racial makeup, presence of children or seniors in a household, prevalence of 1-person households, and population age trends.
-				<p><b>Socioeconomic profile</b>. Analyzing a community’s demographic and housing characteristics by income level provides insight into the range of housing types and costs that might best meet local needs and ability to pay. Key household socioeconomic indicators include incomes, cost burden by tenure (rent/own), household size, number of bedrooms, age, number of children, number of earners, and housing structure type - all broken down by income level for comparison between higher- and lower-income households.
-				<p><b>Employment patterns</b>. Evaluating the local jobs mix and changes over time suggest what income levels and housing values employers within the area are able to support. Key indicators include employment change over time by sector and the geographic distribution of jobs by sector in and around the area.
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="eight columns" style="margin-top: 2%">
-				<iframe title="Household change by AMI group" aria-label="Interactive area chart" id="datawrapper-chart-BXv52" src="https://datawrapper.dwcdn.net/BXv52/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; max-height: 400px; border: none;" height="524" data-external="1"></iframe>
-				<script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();</script>
-			</div>
-			<div class="four columns" style="margin-top: 2%">
-				<p><b>Overview statement about the plan</b></p>
-				<p>This Plan analyzes current and future demographics to understand the magnitude of affordability issues in the region by income and sub-regional level. The Franklin Regional Council of Governments (FRCOG) last examined affordability in 2014 and this report compares the trends since. This Plan then conducts a market analysis to address pent up demand. If present-day circumstances and trends were to continue without a significant intervention to correct the market and address the housing needs of Franklin County, the current trajectory leads to even greater housing burden and inequality.
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="eight columns" style="margin-top: 2%">
-				<iframe title="Can a household with a median income afford a median home price?" aria-label="Interactive line chart" id="datawrapper-chart-XP9oN" src="https://datawrapper.dwcdn.net/XP9oN/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe>
-				<script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();</script>
-			</div>
-			<div class="four columns" style="margin-top: 2%">
-				<p>This chart compares the median listing price in FRCOG with the home value affordable to a household earning the median household income. A wider gap means higher barrier to entry for first-time homebuyers and increased risk that an existing resident might be priced out of the community if they choose or need to move to a different house. </p>
-			</div>
-		</div>
-		<div class="row">
-			<hr>
-		</div>
-		<div class="row">
-			<p><small>CommunityScale is a pioneering urban planning and spatial data analysis company serving clients across the United States</small>
-				<br>
-				<small>This dashboard is open source. See a mistake? <a href="https://github.com/CommunityScale/FRCOG">Make a pull request</a> on Github.</small>
-				<br>
-				<small>© 2024 CommunityScale - MIT license</small>
-			</p>
 		</div>
 	</div>
 
+	<!-- Header row -->
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>FRCOG is developing a county-wide housing plan.</h3>
+				<h5>Franklin County communities are facing a housing shortage - follow the planning process and join the conversation this summer.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/map.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>FRCOG has launched a planning process to understand the local housing landscape and develop strategies and solutions that help meet current and projected needs across income levels. As a first step, FRCOG commissioned a housing study to gauge housing supply and demand across the county. This summer, FRCOG begins extensive community engagement to share findings from the study and promote ideas and recommendations that can help Franklin County communities expand the housing supply to better meet the needs of local residents.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header row -->
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Top 3 housing goals for Franklin County</h3>
+				<h5>FRCOG has set three guiding housing goals for Franklin County which encompass the range of actions and strategies needed to address today’s and tomorrow’s key housing challenges. </h5>
+			</div>
+		</div>
+
+		<!-- Row three call outs -->
+		<div class="cover">
+			<div class="container">
+				<div class="row">
+					<div class="twelve columns" style="margin-top: 0%">
+						<h4>1) Preserve existing housing.
+							<br>2) Preserve existing affordability of housing.
+							<br>3) Create new housing.
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<p>FRCOG will implement the housing plan in several ways, including:</p>
+				<ul>
+					<li>Engaging with community stakeholders, leaders, and residents on housing issues, opportunities, and solutions.</li>
+					<li>Providing technical assistance and resources to communities interested in developing new housing and related policies.</li>
+					<li>Tracking progress toward meeting housing goals over time and updating the plan and its analysis periodically to keep the community informed.</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Indicators Divider row -->
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="Indicators">Indicators</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Households are increasing despite overall population decline.</h3>
+				<h5>While the number of people in Franklin County has been declining, the number of households continues to grow.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/hhs.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>Though Franklin County’s population is expected to decline over the next several years, the number of households will continue increasing, driving ongoing need for more housing units across the region. The phenomenon of declining population combined with growing household counts and increased housing demand is not unique to Franklin County.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h5>As households get smaller and demographics change, fewer people belong to more households.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/pop.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>Many parts of the country are experiencing similar trends which are driven by two simultaneous factors: 1) larger families have fragmented into multiple households as children grow up and move out to form their own households. 2) household size is shrinking as seniors increasing live as empty nester couples or singles and their adult children have fewer children of their own. In this way, a family of four can transition into multiple smaller households that require multiple housing units despite not representing additional individuals. In the event someone from the original family passes away or moves out of the region, the population can shrink along the way.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>There is a shortage of affordable housing units.</h3>
+				<h5>There are more low-income households than low-cost units available, leading many to pay more than they can afford.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/gap.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>The housing study observed significant shortages of affordable housing across Franklin County. There are not enough units priced at levels affordable to low-income and low-income households. On the other hand, there are more than enough units affordable to moderate-income and middle-income households. However, this misalignment between incomes and housing prices creates competition for the limited units available such that, in practice, most lower- and middle-income households likely feel the supply does not meet demand overall.
+
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Attainable housing is increasingly out of reach for the typical local household.</h3>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/affordable.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>Prior to the pandemic, homeownership was financially attainable to the average household in Franklin County: until 2022, a household earning the area’s median income could generally afford the area’s median home price. However, as housing markets have tightened, prices increased, and interest rates risen, an affordability gap has emerged that continues to trend in the wrong direction. As of this summer, a household earning the median area income falls $200k short of being able to afford the current median home price.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Our population is aging - and this means new housing needs.</h3>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/age.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>Franklin County’s population is expected to dramatically shift toward older households over the coming years. Between 2010 and 2027, the 65+ age group will grow by over 7,000 households while nearly all other age groups shrink substantially. This shift is driven by a combination of forces: the resident population is simply getting older; today’s families are having fewer children than previous generations; and an ongoing trend of younger people migrating out of the region and older people migrating in. From a housing perspective, this trend points to growing need for housing units suitable to seniors, including accessible design, fewer bedrooms, proximity to services, and affordability to fixed-incomes.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Growth is needed to reverse school enrollment decline.</h3>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/schools.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>As the population ages and families have fewer children, local school enrollment has declined in nearly all county districts. More growth is needed - including new families with kids - to keep schools operating efficiently and avoid closures or consolidation.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Divider row -->
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="Solutions">Solutions</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>There is no one-size-fits-all solution to the housing challenge.</h3>
+				<h5>A variety of housing types and development models are needed - here are a few examples.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/solutions.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>To meet the changing needs of Franklin County’s current and future households, Franklin County needs more housing units of a greater variety than currently exist in most local communities. In general, residents need more compact and efficient units suitable to smaller households that are more likely to include seniors. Options should include both rental and ownership across housing types. </p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<p>While new units are needed throughout the county, a large share should focus in and around Franklin County’s downtowns and village centers for walkable proximity to services, amenities, and transit connections. New development should include a variety of housing models that complement the county’s current majority of single-family houses, including:</p>
+				<ul>
+					<li>Tiny houses for singles and couples interested in homeownership without too much space or cost.</li>
+					<li>Cluster developments, which create several houses at once efficiently arranged on sites often setting aside land for open space or preservation.</li>
+					<li>Accessory dwelling units (ADUs), which can be added to existing housing parcels as infill units geared toward renters looking for a compact options in established communities.</li>
+					<li>Duplexes and multifamily units that offer different ownership and rental configurations while increasing density for more efficient housing production.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>New construction isn’t the only option.</h3>
+				<h5>There are lots of strategies to retrofit existing housing stock and neighborhoods - here are a few examples.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/retrofits.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four columns" style="margin-top: 2%">
+				<p>GIven the high cost of construction and limited availability of development sites in many local communities, housing production should also include retrofitting existing structures.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 0%">
+				<ul>
+					<li>Adaptive reuse refers to the process of converting a non-residential building into new housing, such as apartments created from a historic schoolhouse or former mill building.
+					<li>Many of the region’s single family houses are too large for most modern households, such as the large victorian homes common in many local neighborhoods. In many cases, these houses can be subdivided into multiple, smaller units that are right-sized to today’s smaller households.</li>
+					<li>Commercial structures in many of the county’s downtowns and village centers include upper floors that could be converted into apartments, offering new units within walking distance of amenities, services, and transit for people who cannot or would rather not rely on a car.</li>
+					<li>As the population ages, existing housing units can be retrofit to ADA accessibility and universal design standards so residents can age in place more comfortably and safely, delaying or foregoing a move to assisted living or other senior housing facility. Energy efficiency and weatherization upgrades can help these residents manage housing costs along the way.</li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>Zoning is a consistent barrier to housing production.</h3>
+				<h5>Restrictive zoning can get in the way of much-needed new housing production but there are many ways to amend local bylaws for greater flexibility.</h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<p><img src="./images/zoning.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="twelve  columns" style="margin-top: 2%">
+				<p>Zoning is one of the most powerful ways to regulate housing development. In some Franklin County communities, current zoning does not allow many of the housing types that would help address today’s housing shortage and affordability challenge. Other communities have amended their zoning over the years to permit a greater variety of housing options and development models in keeping with evolving need and demand. The most immediate and effective way to unlock opportunities for new housing production is to update local zoning codes to enable a wider range of housing types, such as tiny houses, duplexes, multifamily, mixed-use, adaptive reuse, ADUs and other models better aligned with local needs.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Divider row -->
+	<div class="divider">
+		<div class="container">
+			<div class="Twelve columns">
+				<h2 id="Next steps">Next steps</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns" style="margin-top: 2%">
+				<h3>How can I get involved?</h3>
+				<h5>Some quick and effective ways for local citizens and stakeholders to help advance housing production and affordability: </h5>
+			</div>
+		</div>
+
+		<!-- Row with image and text -->
+		<div class="row">
+			<div class="eight columns" style="margin-top: 2%">
+				<p><img src="./images/next.jpg" height=auto width=100% title="CommunityScale" alt="CommunityScale"></a></p>
+			</div>
+			<div class="four  columns" style="margin-top: 2%">
+				<p>Many of the most effective solutions to today’s housing challenges start with new policies at the local level. This requires action and engagement by community members interested in seeing change. To help make a difference, residents should get involved in the policymaking discourse through, for example, joining or contributing to planning boards, advocating at town meetings, participating in local planning activities, and writing letters to lawmakers and newspapers.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<hr>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<p><small>CommunityScale is a pioneering urban planning and spatial data analysis company serving clients across the United States. This dashboard is <a href="https://github.com/CommunityScale/FRCOG">open source</a>. MIT license - 2024 CommunityScale</small>
+			</p>
+		</div>
+	</div>
 	<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
