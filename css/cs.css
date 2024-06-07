@@ -30,8 +30,8 @@ Table of contents
   top: 0;
   background-color: #fff2cc;
   /* Dark background for visibility */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin: 0;
   z-index: 1000;
   /* Ensure it stays on top of other content */
@@ -76,6 +76,15 @@ Table of contents
   width: 100%;
   float: left;
   box-sizing: border-box;
+}
+
+.inline-text {
+  display: flex;
+  align-items: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  gap: 0.5em; /* Add space between all elements */
+  white-space: nowrap; /* Prevent line breaks */
 }
 
 /* For devices larger than 400px */
@@ -416,6 +425,13 @@ a:hover {
   max-width: 100px;
   height: auto;
   margin: 0 auto;
+}
+
+.inline-image {
+  height: 2em; /* Slightly taller than the text */
+  margin-right: 0.5em; /* Space between image and text */
+  text-decoration: none; /* Remove underline */
+  vertical-align: middle; /* Align image vertically with text */
 }
 
 /* Buttons
