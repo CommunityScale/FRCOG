@@ -83,8 +83,42 @@ Table of contents
   align-items: center;
   margin: 0; /* Remove any default margin */
   padding: 0; /* Remove any default padding */
-  gap: 0.5em; /* Add space between all elements */
+  gap: 5px; /* Add space between all elements */
   white-space: nowrap; /* Prevent line breaks */
+}
+
+.unresponsive {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 10px; /* Optional: Adds space between the divs */
+  padding-top: 0px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 00px
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.side-by-side {
+  flex: 1 1 0;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content-size {
+  padding-top: 8px; /* Adds 20px padding to the top */
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  flex: 0 0 auto; /* Does not grow or shrink, only as wide as its content */
+}
+
+.fill-space {
+  padding: 0px;
+  box-sizing: border-box;
+  flex: 1 1 auto; /* Fills the remaining space */
 }
 
 /* For devices larger than 400px */
@@ -744,7 +778,9 @@ there.
 
 /*
 * Colophon
-* Skeleton V2.0.4
+* Content
+* CommunityScale LLC
+* CSS based on Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
