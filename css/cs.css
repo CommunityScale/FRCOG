@@ -91,7 +91,7 @@ Table of contents
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  gap: 10px; /* Optional: Adds space between the divs */
+  gap: 6px; /* Optional: Adds space between the divs */
   padding-top: 0px; /* Adds 20px padding to the top */
   padding-right: 0;
   padding-bottom: 00px
@@ -101,7 +101,7 @@ Table of contents
 
 .side-by-side {
   flex: 1 1 0;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
   box-sizing: border-box;
 }
